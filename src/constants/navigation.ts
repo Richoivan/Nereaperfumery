@@ -15,9 +15,9 @@ export const FOOTER_LINKS = {
     "Apollo", "Morpheus", "Hemera", "Tyce",
   ],
   concierge: [
-    "concierge@nerea.parfum",
+    "cyra.perfume@gmail.com",
     "+62 · Private line",
-    "Jakarta · Paris",
+    "Surabaya, Indonesia",
   ],
 };
 
