@@ -16,7 +16,6 @@ export const FOOTER_LINKS = {
   ],
   concierge: [
     "cyra.perfume@gmail.com",
-    "+62 · Private line",
     "Surabaya, Indonesia",
   ],
 };
