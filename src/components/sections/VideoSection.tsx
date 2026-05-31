@@ -31,7 +31,7 @@ export function VideoSection() {
       <div className="relative w-full bg-ink">
         <video
           ref={videoRef}
-          src={`${BASE}/VIDEO/c35bd695747747a39789daa5c97cd7fe.mov`}
+          src={`${BASE}/VIDEO/c35bd695747747a39789daa5c97cd7fe.webm`}
           autoPlay
           muted
           loop

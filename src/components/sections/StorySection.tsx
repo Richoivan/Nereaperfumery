@@ -44,7 +44,7 @@ export function StorySection() {
         <RevealWrapper className="md:col-span-7">
           <div className="relative aspect-[16/10] rounded-sm overflow-hidden border border-gold/12">
             <Image
-              src="/PHOTO ALL/COM00013.JPG"
+              src="/PHOTO ALL/COM00013.webp"
               alt="Nerèa — Editorial No. 01"
               fill
               className="object-cover"
@@ -60,7 +60,7 @@ export function StorySection() {
           <RevealWrapper delay={0.1}>
             <div className="relative aspect-square rounded-sm overflow-hidden border border-gold/12">
               <Image
-                src="/PHOTO ALL/COM00070.JPG"
+                src="/PHOTO ALL/COM00070.webp"
                 alt="Nerèa — Atelier"
                 fill
                 className="object-cover"
