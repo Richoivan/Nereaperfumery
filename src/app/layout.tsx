@@ -3,6 +3,7 @@ import {
   Playfair_Display,
   Cormorant_Garamond,
   Poppins,
+  Cinzel,
 } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
@@ -28,6 +29,13 @@ const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
   weight: ["200", "300", "400", "500", "600"],
+  display: "swap",
+});
+
+const cinzel = Cinzel({
+  variable: "--font-cinzel",
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
   display: "swap",
 });
 
@@ -59,7 +67,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${playfair.variable} ${cormorant.variable} ${poppins.variable}`}
+      className={`${playfair.variable} ${cormorant.variable} ${poppins.variable} ${cinzel.variable}`}
     >
       <body className="grain bg-ink text-ivory antialiased overflow-x-hidden">
         <SmoothScrollProvider>

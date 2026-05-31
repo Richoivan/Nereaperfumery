@@ -29,12 +29,13 @@ export function IntroOverlay() {
 
           <div className="relative text-center px-6">
             <motion.p
-              className="eyebrow"
+              style={{ fontFamily: "var(--font-cinzel)", letterSpacing: "0.28em", fontSize: "11px" }}
+              className="uppercase text-gold/90"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1.1, delay: 0.2 }}
             >
-              Maison de Parfum · Est. MMXXIV
+              Extrait de Parfum · Est. 2024
             </motion.p>
 
             <motion.h1
